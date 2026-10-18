@@ -1,0 +1,7 @@
+# Project E (PROTOCOL.md). Locked 2026-10-15 before test summers 2024-2026 were opened.
+final_rule: R2
+final_tau: 0.40
+dev_cost_R10: 111      # 71 alerts, 8 of 12 monthly peaks caught (2021-2023)
+selection_notes:
+  - "R2 tau 0.40 cost 111 < R1 best (tau 0.60) 147 < R0 177; ORACLE reference 80."
+  - "Test reports R0, ORACLE and the full tau grid for R1/R2 for transparency; only R2 @ 0.40 is the selected rule."
